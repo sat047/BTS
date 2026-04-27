@@ -33,8 +33,8 @@ async function setupAdmin() {
     }
 
     // Create default admin
-    const defaultEmail = 'admin@feemgr.com'
-    const defaultPassword = 'password1234'
+    const defaultEmail = 'admin@bts.com'
+    const defaultPassword = 'BTS@16042026'
     const passwordHash = await bcrypt.hash(defaultPassword, 10)
 
     await setDoc(doc(db, 'admin', 'default'), {
